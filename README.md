@@ -72,6 +72,7 @@ podra acceder a phpMyAdmin desde el navegar y configurar la base de datos.
 - [ ] Editar un Curso
 - [ ] Eliminar un Curso
 - [ ] Solicitar baja de un Curso por Parte del Inscripto
+- [ ] Manjear las consultas mediante transacciones ya que si tenemos mucha concurrencia se pierden insercciones (problemas de manejos de consurrencia) Esto es importante para mantener la integridad de los datos.
 
 ## Puntos a mejorar
 1. Como la primera solicitud de reportes no la entendi muy claramente, hice que el sistema ordenara y actualizara la lista de cursos colocando primero el que tiene mas inscriptos.
